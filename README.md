@@ -95,5 +95,38 @@ Ils nous manquent un scenario AD reel sans attaque
 -----------
 
 # Architecture de systeme :
+
+## 1- Dataset
+total : 4340 logs AD simule (30 jrs)
+features : 27 features
+split train/test : 80/20
+taux d'attaque: 7.8%
+
+## 2- Feature engineering:
+
+- transformer les donnes brutes en donnes numerique
+
+- features temporelles : temporel_risk base sur l'heure de connextion (2h du matin a un samedi =4)
+- features comportementles : voie historique de l'user (si il a echoue 97 fois et vise acc diff) c'est un password sparying
+- features reseau : verifient d'ou vient la connexion ip_risk
+- features kerberos : pour comprendre echec d'auth plutot que les chiffres
+- risque composite : 
+
+is_night
+is_external_ip
+temporal_risk
+
+## 3- Modeles:
 Isolation Forest avec scikit learn pour entrainement de l'isolation forest
 Winlogbeat -> Elasticsearch pour collecteur de logs 
+
+3 modeles a comparer : Isolation forest - One-Class SVM - Random Forest (sup)
+
+metriques important :
+- f1 score 
+- AUC
+- precision / recall
+
+## 4- Moteur d'alertes
+- critique >= 0.85
+- eleve >= 0.60

@@ -22,11 +22,11 @@ print("ÉTAPE 3 — ENTRAÎNEMENT DES MODÈLES")
 print("=" * 60)
 
 # ─── Chargement des données ───────────────────────────────────────────────────
-X_train = np.load("/home/claude/ad_anomaly/data/X_train.npy")
-X_test  = np.load("/home/claude/ad_anomaly/data/X_test.npy")
-y_train = np.load("/home/claude/ad_anomaly/data/y_train.npy")
-y_test  = np.load("/home/claude/ad_anomaly/data/y_test.npy")
-at_test = np.load("/home/claude/ad_anomaly/data/at_test.npy", allow_pickle=True)
+X_train = np.load("../save/X_train.npy")
+X_test  = np.load("../save/X_test.npy")
+y_train = np.load("../save/y_train.npy")
+y_test  = np.load("../save/y_test.npy")
+at_test = np.load("../save/at_test.npy", allow_pickle=True)
 
 print(f"\nDonnées chargées :")
 print(f"  X_train : {X_train.shape} | Anomalies train : {y_train.sum()}/{len(y_train)}")
@@ -98,7 +98,7 @@ results["isolation_forest"] = {
     "cm":        cm_if.tolist(),
 }
 
-with open("/home/claude/ad_anomaly/models/isolation_forest.pkl", "wb") as f:
+with open("../models/isolation_forest.pkl", "wb") as f:
     pickle.dump(iso_forest, f)
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -152,7 +152,7 @@ results["one_class_svm"] = {
     "cm":        cm_svm.tolist(),
 }
 
-with open("/home/claude/ad_anomaly/models/one_class_svm.pkl", "wb") as f:
+with open("../models/one_class_svm.pkl", "wb") as f:
     pickle.dump(oc_svm, f)
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -204,11 +204,11 @@ results["random_forest"] = {
     "cm":        cm_rf.tolist(),
 }
 
-with open("/home/claude/ad_anomaly/models/random_forest.pkl", "wb") as f:
+with open("../models/random_forest.pkl", "wb") as f:
     pickle.dump(rf, f)
 
 # ─── Importance des features (Random Forest) ─────────────────────────────────
-with open("/home/claude/ad_anomaly/models/feature_names.pkl", "rb") as f:
+with open("../models/feature_names.pkl", "rb") as f:
     feature_names = pickle.load(f)
 
 importances = pd.Series(rf.feature_importances_, index=feature_names)
@@ -255,13 +255,13 @@ report = {
     }
 }
 
-with open("/home/claude/ad_anomaly/reports/evaluation_report.json", "w") as f:
+with open("../reports/evaluation_report.json", "w") as f:
     json.dump(report, f, indent=2)
 
 # Sauvegarder les scores pour visualisation
-np.save("/home/claude/ad_anomaly/data/scores_if.npy",  scores_if_norm)
-np.save("/home/claude/ad_anomaly/data/scores_svm.npy", scores_svm_n)
-np.save("/home/claude/ad_anomaly/data/scores_rf.npy",  scores_rf)
+np.save("../score/scores_if.npy",  scores_if_norm)
+np.save("../score/scores_svm.npy", scores_svm_n)
+np.save("../score/scores_rf.npy",  scores_rf)
 
 print("\n✓ Entraînement terminé. Rapport sauvegardé.")
 print(f"\n{'─'*50}")
