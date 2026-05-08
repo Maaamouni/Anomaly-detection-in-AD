@@ -1,4 +1,5 @@
 # Détection d'anomalies AD
+
 le sujet cible 3 types d'attaques AD : 
 - password spraying
 - escalade de privilèges
@@ -6,7 +7,7 @@ le sujet cible 3 types d'attaques AD :
 
 1 - NTDS Dumping :
 
-technique utilise en cs pour extraire les motes de passe des utilisateurs d'un domaine Windows, il vient de NTDS.dit (fichier tres important dans AD, il contient user account, mdp sous forme de hash, groups et permissions)
+technique utilise en cs pour extraire les mots de passe des utilisateurs d'un domaine Windows, il vient de NTDS.dit (fichier tres important dans AD, il contient user account, mdp sous forme de hash, groups et permissions)
 plus precisament, NTDS dumping c'est copier et extraire le contenur de fichier NTDS.dit pour recuperer les hash de mdp..
 l'outil qui est tres utilise pour NTDS Dumping c'est : mimikatz.
 
@@ -47,6 +48,7 @@ empire_over_pth...PassTheHash   10271
 empire_shell_rubeus_createnetonly...KerberosAbuse   3590
 empire_shell_rubeus_ptt...PassTheTicket 1179
 purplesharp_ad_playbook_I...MultiAttack 25993
+
 il n'y a pas de data normale
 
 ## Etape 2 : Feature engineering 
@@ -91,3 +93,7 @@ Isolation forest : f= 6.61 acceptable, sans labels il generalise mieux
 Ils nous manquent un scenario AD reel sans attaque
 
 -----------
+
+# Architecture de systeme :
+Isolation Forest avec scikit learn pour entrainement de l'isolation forest
+Winlogbeat -> Elasticsearch pour collecteur de logs 
