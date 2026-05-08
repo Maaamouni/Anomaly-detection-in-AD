@@ -1,7 +1,3 @@
-"""
-Génération de logs Active Directory réalistes
-Simule les événements Windows Security Event Log (EVTX)
-"""
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
@@ -353,5 +349,5 @@ print(f"  Taux d'attaque : {df['label'].mean()*100:.1f}%")
 print("\nRépartition par type d'attaque :")
 print(df['attack_type'].value_counts().to_string())
 
-df.to_csv("/home/claude/ad_anomaly/data/ad_logs_raw.csv", index=False)
-print("\nFichier sauvegardé : data/ad_logs_raw.csv")
+df.to_csv("../data/ad_logs_raw.csv", index=False)
+print("\nFichier sauvegardé : ../data/ad_logs_raw.csv")

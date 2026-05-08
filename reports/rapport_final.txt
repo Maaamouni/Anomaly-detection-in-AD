@@ -4,7 +4,7 @@
 ║   Prototype ML pour logs Active Directory                        ║
 ╚══════════════════════════════════════════════════════════════════╝
 
-DATE : 2026-05-08 09:06
+DATE : 2026-05-08 13:11
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 1. DONNÉES
@@ -27,7 +27,7 @@ DATE : 2026-05-08 09:06
   │ Modèle              │ Précis.  │ Rappel │  F1    │  AUC   │  FP%   │
   ├─────────────────────┼──────────┼────────┼────────┼────────┼────────┤
   │ Isolation Forest    │  0.162   │  0.162 │ 0.162  │ 0.668  │ 7.1%  │
-  │ One-Class SVM       │  0.519   │  1.000 │ 0.683  │ 1.000  │ 7.9%  │
+  │ One-Class SVM       │  0.504   │  1.000 │ 0.670  │ 1.000  │ 8.4%  │
   │ Random Forest (sup) │  1.000   │  1.000 │ 1.000  │ 1.000  │ 0.0%  │
   └─────────────────────┴──────────┴────────┴────────┴────────┴────────┘
 
@@ -57,7 +57,7 @@ DATE : 2026-05-08 09:06
     Cause principale : Features temporelles insuffisamment discriminantes
     → Recommandation : Ajuster contamination, enrichir avec User Entity Baseline
 
-  One-Class SVM     → FP = 63 (7.9%)
+  One-Class SVM     → FP = 67 (8.4%)
     Cause : Frontière de décision large (nu=0.078)
     → Recommandation : Augmenter nu, ajouter kernel polynomial
 

@@ -12,7 +12,7 @@ print("=" * 60)
 print("ÉTAPE 2 — FEATURE ENGINEERING")
 print("=" * 60)
 
-df = pd.read_csv("/home/claude/ad_anomaly/data/ad_logs_raw.csv", parse_dates=["timestamp"])
+df = pd.read_csv("../data/ad_logs_raw.csv", parse_dates=["timestamp"])
 
 # ─── 2.1 Features temporelles ────────────────────────────────────────────────
 print("\n[2.1] Extraction features temporelles...")
@@ -120,18 +120,18 @@ print(f"  Train : {X_train.shape[0]} samples ({y_train.sum()} anomalies)")
 print(f"  Test  : {X_test.shape[0]} samples ({y_test.sum()} anomalies)")
 
 # ─── Sauvegarde ──────────────────────────────────────────────────────────────
-np.save("/home/claude/ad_anomaly/data/X_train.npy", X_train)
-np.save("/home/claude/ad_anomaly/data/X_test.npy",  X_test)
-np.save("/home/claude/ad_anomaly/data/y_train.npy", y_train.values)
-np.save("/home/claude/ad_anomaly/data/y_test.npy",  y_test.values)
-np.save("/home/claude/ad_anomaly/data/at_test.npy", at_test.values)
+np.save("../save/X_train.npy", X_train)
+np.save("../save/X_test.npy",  X_test)
+np.save("../save/y_train.npy", y_train.values)
+np.save("../save/y_test.npy",  y_test.values)
+np.save("../save/at_test.npy", at_test.values)
 
-with open("/home/claude/ad_anomaly/models/scaler.pkl", "wb") as f:
+with open("../models/scaler.pkl", "wb") as f:
     pickle.dump(scaler, f)
-with open("/home/claude/ad_anomaly/models/feature_names.pkl", "wb") as f:
+with open("../models/feature_names.pkl", "wb") as f:
     pickle.dump(FEATURES, f)
 
-df.to_csv("/home/claude/ad_anomaly/data/ad_logs_engineered.csv", index=False)
+df.to_csv("../data/ad_logs_engineered.csv", index=False)
 
 print("\n✓ Preprocessing terminé. Fichiers sauvegardés.")
 

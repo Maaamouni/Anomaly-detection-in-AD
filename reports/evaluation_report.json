@@ -1,0 +1,114 @@
+{
+  "model_results": {
+    "isolation_forest": {
+      "precision": 0.1618,
+      "recall": 0.1618,
+      "f1": 0.1618,
+      "auc": 0.6678,
+      "fp_rate": 0.0712,
+      "fn_rate": 0.8382,
+      "cm": [
+        [
+          743,
+          57
+        ],
+        [
+          57,
+          11
+        ]
+      ]
+    },
+    "one_class_svm": {
+      "precision": 0.5037,
+      "recall": 1.0,
+      "f1": 0.67,
+      "auc": 1.0,
+      "fp_rate": 0.0838,
+      "fn_rate": 0.0,
+      "cm": [
+        [
+          733,
+          67
+        ],
+        [
+          0,
+          68
+        ]
+      ]
+    },
+    "random_forest": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0,
+      "fp_rate": 0.0,
+      "fn_rate": 0.0,
+      "cm": [
+        [
+          800,
+          0
+        ],
+        [
+          0,
+          68
+        ]
+      ]
+    }
+  },
+  "attack_evaluation": {
+    "kerberoasting": {
+      "total": 5,
+      "detected": 1,
+      "tp": 1,
+      "fp": 0,
+      "detection_rate": 0.2
+    },
+    "lateral_movement": {
+      "total": 10,
+      "detected": 5,
+      "tp": 5,
+      "fp": 0,
+      "detection_rate": 0.5
+    },
+    "normal": {
+      "total": 800,
+      "detected": 57,
+      "tp": 0,
+      "fp": 57,
+      "detection_rate": 0.0
+    },
+    "password_spraying": {
+      "total": 49,
+      "detected": 5,
+      "tp": 5,
+      "fp": 0,
+      "detection_rate": 0.102
+    },
+    "privilege_escalation": {
+      "total": 4,
+      "detected": 0,
+      "tp": 0,
+      "fp": 0,
+      "detection_rate": 0.0
+    }
+  },
+  "feature_importance": {
+    "temporal_risk": 0.20333872806994557,
+    "is_business": 0.19172294434183265,
+    "ip_risk": 0.18604862808767436,
+    "risk_score": 0.10500776533329637,
+    "is_dc_target": 0.07591165109094047,
+    "day_of_week": 0.049306519896524466,
+    "is_weekend": 0.04594366905195121,
+    "unique_users_1h": 0.04178558459262103,
+    "is_external_ip": 0.023491824642069333,
+    "hour": 0.022016681146345123
+  },
+  "dataset_stats": {
+    "total": 4340,
+    "n_features": 27,
+    "train_size": 3472,
+    "test_size": 868,
+    "attack_rate": 0.0783
+  }
+}
