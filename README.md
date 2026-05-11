@@ -117,7 +117,14 @@ is_external_ip
 temporal_risk
 
 ## 3- Modeles:
-Isolation Forest avec scikit learn pour entrainement de l'isolation forest
+
+**Isolation Forest** (les anomalies sont rares et differentes, donc elles sont faciles a isoler), utilise puisque on detecte d'anomalies sans labels
+**One-CLass SVM** Apprendre ce qui est normal uniquement (tous ce qui est en dehors = anomalie), 
+1- projette les donnees dans un espace (kernel RBF)
+2- construit une frontiere (boundary) autour les donnees normales (dedans c normale, dehors c anomalie).
+**Random Forest** plusieurs arbre pour une meilleure decision (combiner plusieure model faible pour un modele fort 
+
+avec scikit learn pour entrainement de l'isolation forest
 Winlogbeat -> Elasticsearch pour collecteur de logs 
 
 3 modeles a comparer : Isolation forest - One-Class SVM - Random Forest (sup)
@@ -126,7 +133,62 @@ metriques important :
 - f1 score 
 - AUC
 - precision / recall
+- matrice de confusion 
+- Taux d'erreurs : *fp_rate*, normal detecte comme attaque, *fn_rate*, attaque non detecte.
+
+### Interpretation des resultats :
+isolation forest est mauvais dans ce cas (precision = 0.16 ainsi que rappel ce que signifie il detecte un peu d'attaques
+
 
 ## 4- Moteur d'alertes
 - critique >= 0.85
 - eleve >= 0.60
+
+
+# Execution
+
+## Envirenement virtuel
+```
+python3 -m venv ad_env
+source ad_env/bin/activate
+pip install numpy pandas seaborn matplotlib scikit-learn
+```
+
+## Execution des programmes python
+1- generation des donnes identiques a celle de Windowns Event log Security.evtx
+```
+python generate_data.py
+```
+
+2- feature engineering pour normaliser et standariser les donnes afin d'entrainer notre modele
+```
+python feature_engineering.py
+```
+
+3- Entrainement de 3 modeles et faire un benchmarking entre les 3
+```
+python train_models
+```
+
+4- Generation d'alerts
+```
+python generate_alerts.py
+```
+
+# Prototype de projet :
+**Winlogbeat** (agent leger s'installe sur serveur windows et lit les journaux security,system, application `event IDs`) et il envoie vers une plateforme d'analyse (Elastic Search)
+
+**Logstash** (optionnel) pour enrichir les logs avant d les stocker
+
+**Elasticsearch** bd ou tous les logs sont stockes, il tourne sur un serveur linux ou windows.
+
+[ Windows Machine ]
+        ↓
+   Winlogbeat
+        ↓
+[ Elasticsearch ]
+        ↓
+[ Model python ]
+
+**model python** les analyse toutes les 30 sec et leve une alerte si qlq chose sus.
+
