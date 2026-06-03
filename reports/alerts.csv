@@ -1,69 +1,69 @@
 alert_id,timestamp,severity,attack_type,score,username,source_ip,dest_host,event_id,action
-ALERT-88847,2024-11-08 11:01:08,CRITIQUE,Mouvement Latéral,1.0,user077,192.168.4.198,WS030,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-18974,2024-11-20 08:02:55,CRITIQUE,Password Spraying,1.0,user050,192.168.4.234,WS049,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-04819,2024-11-15 17:53:48,CRITIQUE,Password Spraying,1.0,user026,192.168.5.63,WS050,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-69119,2024-11-01 16:08:58,CRITIQUE,Password Spraying,1.0,user049,192.168.9.76,WS049,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-22480,2024-11-27 12:40:23,CRITIQUE,Password Spraying,1.0,user032,192.168.2.250,WS049,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-66718,2024-11-24 12:20:00,CRITIQUE,Password Spraying,1.0,user039,192.168.8.98,DC01,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-10022,2024-11-12 11:27:26,CRITIQUE,Password Spraying,1.0,user013,192.168.7.21,WS043,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-22499,2024-11-30 22:04:39,CRITIQUE,Password Spraying,1.0,user056,169.243.84.68,DC01,4625,Bloquer le compte et isoler la machine immédiatement
-ALERT-58763,2024-11-04 12:32:48,CRITIQUE,Password Spraying,1.0,user038,192.168.4.222,WS029,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-48045,2024-11-07 08:52:26,CRITIQUE,Password Spraying,1.0,user023,192.168.6.55,WS040,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-90901,2024-11-27 14:40:13,CRITIQUE,Password Spraying,1.0,user033,192.168.6.155,WS025,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-73478,2024-11-30 22:04:29,CRITIQUE,Mouvement Latéral,1.0,user039,169.243.84.68,DC03,4625,Bloquer le compte et isoler la machine immédiatement
-ALERT-20690,2024-11-18 15:07:29,CRITIQUE,Kerberoasting,1.0,user012,192.168.7.88,WS001,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-74205,2024-11-27 14:32:35,CRITIQUE,Password Spraying,1.0,user010,192.168.6.155,WS019,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-69520,2024-11-01 11:13:32,CRITIQUE,Password Spraying,1.0,user011,192.168.6.42,WS037,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-74632,2024-11-15 15:59:09,CRITIQUE,Password Spraying,1.0,user041,192.168.8.102,WS010,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-52169,2024-11-18 11:23:44,CRITIQUE,Kerberoasting,1.0,user033,192.168.4.181,WS004,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-85059,2024-11-04 16:26:39,CRITIQUE,Password Spraying,1.0,user056,192.168.2.219,WS037,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-01829,2024-11-22 10:14:59,CRITIQUE,Password Spraying,1.0,user037,192.168.9.23,WS030,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-87452,2024-11-01 14:39:41,CRITIQUE,Password Spraying,1.0,user019,192.168.4.222,WS034,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-97292,2024-11-04 08:13:38,CRITIQUE,Mouvement Latéral,1.0,user037,192.168.1.8,WS035,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-27516,2024-11-04 08:44:46,CRITIQUE,Mouvement Latéral,1.0,user069,192.168.8.37,WS043,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-98894,2024-11-14 16:47:44,CRITIQUE,Password Spraying,1.0,user010,192.168.9.76,WS044,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-75304,2024-11-20 08:16:56,CRITIQUE,Password Spraying,1.0,user053,192.168.10.109,WS028,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-25543,2024-11-06 11:57:27,CRITIQUE,Password Spraying,1.0,user038,192.168.2.250,WS017,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-64993,2024-11-08 10:01:38,CRITIQUE,Password Spraying,1.0,user070,192.168.5.253,WS048,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-34984,2024-11-27 10:47:56,CRITIQUE,Password Spraying,1.0,user049,192.168.4.130,WS026,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-35896,2024-11-25 15:21:18,CRITIQUE,Mouvement Latéral,1.0,user078,192.168.2.56,WS005,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-94399,2024-11-19 13:25:40,CRITIQUE,Password Spraying,1.0,user004,192.168.3.137,WS028,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-79015,2024-11-04 09:13:53,CRITIQUE,Password Spraying,1.0,user039,192.168.5.117,WS045,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-10125,2024-11-25 16:08:12,CRITIQUE,Password Spraying,1.0,user022,192.168.9.108,WS024,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-82543,2024-11-18 10:47:18,CRITIQUE,Escalade de Privilèges,1.0,user016,192.168.5.117,WS025,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-11887,2024-11-29 12:48:31,CRITIQUE,Escalade de Privilèges,1.0,user049,192.168.4.42,WS041,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-52899,2024-11-20 13:17:13,CRITIQUE,Password Spraying,1.0,user072,192.168.8.138,WS025,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-65464,2024-11-04 12:15:19,CRITIQUE,Password Spraying,1.0,user011,192.168.2.98,WS009,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-55576,2024-11-11 11:37:24,CRITIQUE,Password Spraying,1.0,user016,192.168.5.117,WS011,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-70743,2024-11-04 11:35:29,CRITIQUE,Password Spraying,1.0,user002,192.168.2.219,SRV002,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-94125,2024-11-27 10:29:48,CRITIQUE,Password Spraying,1.0,user069,192.168.9.51,WS028,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-23018,2024-11-11 10:56:49,CRITIQUE,Password Spraying,1.0,user072,192.168.3.137,WS027,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-14582,2024-11-20 12:30:21,CRITIQUE,Password Spraying,1.0,user035,192.168.10.7,WS011,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-76945,2024-11-11 11:05:03,CRITIQUE,Mouvement Latéral,0.9993,user007,192.168.1.195,WS046,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-47535,2024-11-04 11:11:02,CRITIQUE,Password Spraying,1.0,user028,192.168.2.250,WS042,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-06170,2024-11-25 08:50:19,CRITIQUE,Escalade de Privilèges,1.0,user059,192.168.5.17,WS045,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-87685,2024-11-01 10:10:41,CRITIQUE,Mouvement Latéral,1.0,user003,192.168.2.56,WS026,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-38669,2024-11-15 13:04:03,CRITIQUE,Password Spraying,1.0,user063,192.168.10.109,WS040,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-72027,2024-11-11 08:41:15,CRITIQUE,Password Spraying,1.0,user031,192.168.5.36,WS019,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-80845,2024-11-01 10:40:49,CRITIQUE,Password Spraying,1.0,user012,192.168.7.21,WS002,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-76344,2024-11-08 10:45:54,CRITIQUE,Password Spraying,1.0,user074,192.168.4.234,SRV005,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-98784,2024-11-18 12:29:25,CRITIQUE,Password Spraying,1.0,user007,192.168.2.250,WS009,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-72747,2024-11-06 12:20:08,CRITIQUE,Escalade de Privilèges,1.0,user048,192.168.2.174,WS046,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-65015,2024-11-25 14:03:10,CRITIQUE,Password Spraying,1.0,user052,192.168.9.23,WS030,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-31378,2024-11-25 10:19:20,CRITIQUE,Password Spraying,1.0,user075,192.168.10.109,WS003,4769,Bloquer le compte et isoler la machine immédiatement
-ALERT-42558,2024-11-13 12:31:46,CRITIQUE,Password Spraying,1.0,user022,192.168.5.117,WS035,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-75113,2024-11-05 14:50:44,CRITIQUE,Mouvement Latéral,1.0,user043,192.168.5.254,WS049,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-04403,2024-11-11 14:51:05,CRITIQUE,Kerberoasting,1.0,user064,192.168.4.198,SRV002,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-15474,2024-11-04 08:42:48,CRITIQUE,Kerberoasting,1.0,user080,192.168.9.57,WS007,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-70135,2024-11-04 15:36:33,CRITIQUE,Password Spraying,1.0,user073,192.168.8.138,WS030,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-01780,2024-12-02 13:32:28,CRITIQUE,Password Spraying,1.0,user072,192.168.2.12,WS034,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-14570,2024-11-28 15:38:34,CRITIQUE,Password Spraying,1.0,user017,192.168.2.12,WS004,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-14307,2024-11-04 10:25:52,CRITIQUE,Password Spraying,1.0,user078,192.168.2.12,WS009,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-06658,2024-11-11 10:35:12,CRITIQUE,Kerberoasting,1.0,user044,192.168.8.98,WS023,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-22751,2024-11-01 13:44:13,CRITIQUE,Password Spraying,1.0,user067,192.168.9.76,WS012,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-04934,2024-11-27 15:58:55,CRITIQUE,Password Spraying,1.0,user002,192.168.4.246,WS018,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-69531,2024-11-11 10:21:56,CRITIQUE,Password Spraying,1.0,user016,192.168.5.117,WS036,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-57220,2024-12-02 12:26:06,CRITIQUE,Mouvement Latéral,1.0,user012,192.168.6.42,WS002,4776,Bloquer le compte et isoler la machine immédiatement
-ALERT-09551,2024-11-29 10:12:21,CRITIQUE,Password Spraying,1.0,user059,192.168.6.216,WS041,4624,Bloquer le compte et isoler la machine immédiatement
-ALERT-07889,2024-11-12 08:30:29,CRITIQUE,Mouvement Latéral,1.0,user004,192.168.2.56,WS031,4768,Bloquer le compte et isoler la machine immédiatement
-ALERT-75724,2024-11-25 12:30:07,CRITIQUE,Password Spraying,1.0,user028,192.168.7.21,WS030,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-37531,2024-11-08 11:01:08,CRITIQUE,Mouvement Latéral,1.0,user077,192.168.4.198,WS030,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-11629,2024-11-20 08:02:55,CRITIQUE,Password Spraying,1.0,user050,192.168.4.234,WS049,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-33259,2024-11-15 17:53:48,CRITIQUE,Password Spraying,1.0,user026,192.168.5.63,WS050,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-46154,2024-11-01 16:08:58,CRITIQUE,Password Spraying,1.0,user049,192.168.9.76,WS049,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-42720,2024-11-27 12:40:23,CRITIQUE,Password Spraying,1.0,user032,192.168.2.250,WS049,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-84258,2024-11-24 12:20:00,CRITIQUE,Password Spraying,1.0,user039,192.168.8.98,DC01,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-53482,2024-11-12 11:27:26,CRITIQUE,Password Spraying,1.0,user013,192.168.7.21,WS043,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-71816,2024-11-30 22:04:39,CRITIQUE,Password Spraying,1.0,user056,169.243.84.68,DC01,4625,Bloquer le compte et isoler la machine immédiatement
+ALERT-42512,2024-11-04 12:32:48,CRITIQUE,Password Spraying,1.0,user038,192.168.4.222,WS029,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-80799,2024-11-07 08:52:26,CRITIQUE,Password Spraying,1.0,user023,192.168.6.55,WS040,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-49846,2024-11-27 14:40:13,CRITIQUE,Password Spraying,1.0,user033,192.168.6.155,WS025,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-49982,2024-11-30 22:04:29,CRITIQUE,Mouvement Latéral,1.0,user039,169.243.84.68,DC03,4625,Bloquer le compte et isoler la machine immédiatement
+ALERT-97145,2024-11-18 15:07:29,CRITIQUE,Kerberoasting,1.0,user012,192.168.7.88,WS001,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-09341,2024-11-27 14:32:35,CRITIQUE,Password Spraying,1.0,user010,192.168.6.155,WS019,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-51313,2024-11-01 11:13:32,CRITIQUE,Password Spraying,1.0,user011,192.168.6.42,WS037,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-06575,2024-11-15 15:59:09,CRITIQUE,Password Spraying,1.0,user041,192.168.8.102,WS010,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-50878,2024-11-18 11:23:44,CRITIQUE,Kerberoasting,1.0,user033,192.168.4.181,WS004,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-02568,2024-11-04 16:26:39,CRITIQUE,Password Spraying,1.0,user056,192.168.2.219,WS037,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-55409,2024-11-22 10:14:59,CRITIQUE,Password Spraying,1.0,user037,192.168.9.23,WS030,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-37771,2024-11-01 14:39:41,CRITIQUE,Password Spraying,1.0,user019,192.168.4.222,WS034,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-49273,2024-11-04 08:13:38,CRITIQUE,Mouvement Latéral,1.0,user037,192.168.1.8,WS035,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-80022,2024-11-04 08:44:46,CRITIQUE,Mouvement Latéral,1.0,user069,192.168.8.37,WS043,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-90356,2024-11-14 16:47:44,CRITIQUE,Password Spraying,1.0,user010,192.168.9.76,WS044,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-46349,2024-11-20 08:16:56,CRITIQUE,Password Spraying,1.0,user053,192.168.10.109,WS028,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-13793,2024-11-06 11:57:27,CRITIQUE,Password Spraying,1.0,user038,192.168.2.250,WS017,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-09863,2024-11-08 10:01:38,CRITIQUE,Password Spraying,1.0,user070,192.168.5.253,WS048,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-43382,2024-11-27 10:47:56,CRITIQUE,Password Spraying,1.0,user049,192.168.4.130,WS026,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-14739,2024-11-25 15:21:18,CRITIQUE,Mouvement Latéral,1.0,user078,192.168.2.56,WS005,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-49549,2024-11-19 13:25:40,CRITIQUE,Password Spraying,1.0,user004,192.168.3.137,WS028,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-62033,2024-11-04 09:13:53,CRITIQUE,Password Spraying,1.0,user039,192.168.5.117,WS045,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-07067,2024-11-25 16:08:12,CRITIQUE,Password Spraying,1.0,user022,192.168.9.108,WS024,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-90648,2024-11-18 10:47:18,CRITIQUE,Escalade de Privilèges,1.0,user016,192.168.5.117,WS025,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-15924,2024-11-29 12:48:31,CRITIQUE,Escalade de Privilèges,1.0,user049,192.168.4.42,WS041,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-41730,2024-11-20 13:17:13,CRITIQUE,Password Spraying,1.0,user072,192.168.8.138,WS025,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-20566,2024-11-04 12:15:19,CRITIQUE,Password Spraying,1.0,user011,192.168.2.98,WS009,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-70953,2024-11-11 11:37:24,CRITIQUE,Password Spraying,1.0,user016,192.168.5.117,WS011,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-60174,2024-11-04 11:35:29,CRITIQUE,Password Spraying,1.0,user002,192.168.2.219,SRV002,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-94917,2024-11-27 10:29:48,CRITIQUE,Password Spraying,1.0,user069,192.168.9.51,WS028,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-19470,2024-11-11 10:56:49,CRITIQUE,Password Spraying,1.0,user072,192.168.3.137,WS027,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-36847,2024-11-20 12:30:21,CRITIQUE,Password Spraying,1.0,user035,192.168.10.7,WS011,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-74327,2024-11-11 11:05:03,CRITIQUE,Mouvement Latéral,0.9993,user007,192.168.1.195,WS046,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-16132,2024-11-04 11:11:02,CRITIQUE,Password Spraying,1.0,user028,192.168.2.250,WS042,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-67588,2024-11-25 08:50:19,CRITIQUE,Escalade de Privilèges,1.0,user059,192.168.5.17,WS045,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-45276,2024-11-01 10:10:41,CRITIQUE,Mouvement Latéral,1.0,user003,192.168.2.56,WS026,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-30196,2024-11-15 13:04:03,CRITIQUE,Password Spraying,1.0,user063,192.168.10.109,WS040,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-34039,2024-11-11 08:41:15,CRITIQUE,Password Spraying,1.0,user031,192.168.5.36,WS019,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-56490,2024-11-01 10:40:49,CRITIQUE,Password Spraying,1.0,user012,192.168.7.21,WS002,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-11232,2024-11-08 10:45:54,CRITIQUE,Password Spraying,1.0,user074,192.168.4.234,SRV005,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-57409,2024-11-18 12:29:25,CRITIQUE,Password Spraying,1.0,user007,192.168.2.250,WS009,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-25222,2024-11-06 12:20:08,CRITIQUE,Escalade de Privilèges,1.0,user048,192.168.2.174,WS046,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-26129,2024-11-25 14:03:10,CRITIQUE,Password Spraying,1.0,user052,192.168.9.23,WS030,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-10075,2024-11-25 10:19:20,CRITIQUE,Password Spraying,1.0,user075,192.168.10.109,WS003,4769,Bloquer le compte et isoler la machine immédiatement
+ALERT-25152,2024-11-13 12:31:46,CRITIQUE,Password Spraying,1.0,user022,192.168.5.117,WS035,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-14163,2024-11-05 14:50:44,CRITIQUE,Mouvement Latéral,1.0,user043,192.168.5.254,WS049,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-39415,2024-11-11 14:51:05,CRITIQUE,Kerberoasting,1.0,user064,192.168.4.198,SRV002,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-94319,2024-11-04 08:42:48,CRITIQUE,Kerberoasting,1.0,user080,192.168.9.57,WS007,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-12237,2024-11-04 15:36:33,CRITIQUE,Password Spraying,1.0,user073,192.168.8.138,WS030,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-57047,2024-12-02 13:32:28,CRITIQUE,Password Spraying,1.0,user072,192.168.2.12,WS034,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-25783,2024-11-28 15:38:34,CRITIQUE,Password Spraying,1.0,user017,192.168.2.12,WS004,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-36926,2024-11-04 10:25:52,CRITIQUE,Password Spraying,1.0,user078,192.168.2.12,WS009,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-74806,2024-11-11 10:35:12,CRITIQUE,Kerberoasting,1.0,user044,192.168.8.98,WS023,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-26342,2024-11-01 13:44:13,CRITIQUE,Password Spraying,1.0,user067,192.168.9.76,WS012,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-04848,2024-11-27 15:58:55,CRITIQUE,Password Spraying,1.0,user002,192.168.4.246,WS018,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-91654,2024-11-11 10:21:56,CRITIQUE,Password Spraying,1.0,user016,192.168.5.117,WS036,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-89903,2024-12-02 12:26:06,CRITIQUE,Mouvement Latéral,1.0,user012,192.168.6.42,WS002,4776,Bloquer le compte et isoler la machine immédiatement
+ALERT-44856,2024-11-29 10:12:21,CRITIQUE,Password Spraying,1.0,user059,192.168.6.216,WS041,4624,Bloquer le compte et isoler la machine immédiatement
+ALERT-79765,2024-11-12 08:30:29,CRITIQUE,Mouvement Latéral,1.0,user004,192.168.2.56,WS031,4768,Bloquer le compte et isoler la machine immédiatement
+ALERT-41263,2024-11-25 12:30:07,CRITIQUE,Password Spraying,1.0,user028,192.168.7.21,WS030,4624,Bloquer le compte et isoler la machine immédiatement
